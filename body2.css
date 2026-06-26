@@ -1,0 +1,187 @@
+.container-4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+
+}
+
+.buy-img{
+  object-fit: contain;
+  width: 600px;
+  border-radius: 15px;
+  transition: box-shadow 0.25s ease, transform 0.20s ease;
+}
+
+.buy-img:hover{
+  transform: scale(1.05);
+  transition: 0.2;
+}
+
+.buy-game{
+  margin-top: 60px;
+
+}
+
+.buy-info{
+  margin-top: 20px;
+  width: 480px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.buy-button{
+  margin-top: 20px;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(0, 98, 255);
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 0.25s ease, transform 0.20s ease;
+}
+
+.buy-button:hover{
+  transform: scale(1.05);
+  transition: 0.2;
+}
+
+.container-5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.left{
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgb(23, 23, 23);
+  color: white;
+  margin-right: 30px;
+  cursor: pointer;
+  transition: box-shadow 0.25s ease, transform 0.20s ease;
+}
+
+.left:hover{
+  transform: scale(1.05);
+  transition: 0.2;
+}
+
+.right{
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgb(23, 23, 23);
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 0.25s ease, transform 0.20s ease;
+}
+
+.right:hover{
+  transform: scale(1.05);
+  transition: 0.2;
+}
+
+.main-container-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 41px;
+}
+
+.container-6{
+  display: inline-block;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  background-color: rgb(130, 130, 130);
+  transition: box-shadow 0.25s ease, transform 0.20s ease;
+
+}
+
+.container-6:hover{
+  transform: scale(1.05);
+  transition: 0.2;
+}
+
+.buy-img1{
+  object-fit: contain;
+  width: 350px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.span-1{
+  border-style: none;
+  background-color: rgb(0, 98, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.span-2{
+  border-style: none;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 4px;
+
+}
+
+.best{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.game{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.cost{
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.price{
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.offer{
+  background: rgb(96, 255, 96);
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.mrp{
+  text-decoration: line-through;
+  font-size: 13px;
+  color: rgb(227, 227, 227);
+}
+
+.span-3{
+  font-size: 27px;
+}
+
